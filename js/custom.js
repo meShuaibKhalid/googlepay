@@ -76,8 +76,8 @@ function getGooglePaymentDataRequest() {
             totalPriceLabel: "Total"
         },
         merchantInfo: {
-            merchantId: '12345678901234567890',
-            merchantName: `${parsedUserInfo.merchant_display_name}`
+            merchantId: `${parsedUserInfo.merchantId}`,
+            merchantName: `${parsedUserInfo.merchantName}`
         },
         callbackIntents: ["PAYMENT_AUTHORIZATION"]
     };
