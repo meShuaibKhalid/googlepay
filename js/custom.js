@@ -25,9 +25,9 @@ const parsedUserInfo = {
     mid_country_code: 'US',
     currency: 'USD',
     amount: 1,
-    merchantName: 'Flowers Shop', // @todo get from merchant
-    merchantId: 'BCR2DN4TWDNNPWQX', // @todo get from merchant
-    merchant_display_name: 'Flowers Shop'
+    merchantName: 'truevo', // @todo get from merchant
+    merchantId: "fd5eaedd-7d85-44c0-a49c-b3946d13c728", // @todo get from merchant
+    merchant_display_name: 'GPay merchant'
 }
 
 const baseRequest = {
