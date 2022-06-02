@@ -25,7 +25,7 @@ const parsedUserInfo = {
     mid_country_code: 'US',
     currency: 'USD',
     amount: 1,
-    merchantName: 'GPay merchant', // @todo get from merchant
+    merchantName: 'truevo', // @todo get from merchant
     merchantId: "truevo", // @todo get from merchant
     merchant_display_name: 'GPay merchant'
 }
