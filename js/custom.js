@@ -25,8 +25,8 @@ const parsedUserInfo = {
     mid_country_code: 'US',
     currency: 'USD',
     amount: 1,
-    merchantName: 'truevo', // @todo get from merchant
-    merchantId: "fd5eaedd-7d85-44c0-a49c-b3946d13c728", // @todo get from merchant
+    merchantName: 'GPay merchant', // @todo get from merchant
+    merchantId: "truevo", // @todo get from merchant
     merchant_display_name: 'GPay merchant'
 }
 
@@ -45,7 +45,7 @@ const cardPaymentMethod = {
         type: 'PAYMENT_GATEWAY',
         parameters: {
             'gateway': 'truevo',
-            'gatewayMerchantId': 'exampleGatewayMerchantId'
+            'gatewayMerchantId': 'fd5eaedd-7d85-44c0-a49c-b3946d13c728'
         }
     }
 };
