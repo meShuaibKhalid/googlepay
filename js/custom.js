@@ -44,7 +44,7 @@ const cardPaymentMethod = {
         type: 'PAYMENT_GATEWAY',
         parameters: {
             'gateway': 'truevo',
-            'gatewayMerchantId': 'ddd11622-7a37-4d5c-bb4f-bc75d92e9583'
+            'gatewayMerchantId': 'exampleGatewayMerchantId'
         }
     }
 };
