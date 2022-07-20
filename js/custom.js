@@ -25,8 +25,8 @@ const parsedUserInfo = {
     mid_country_code: 'US',
     currency: 'USD',
     amount: 1,
-    merchantName: 'Gpay merchant', // @todo get from merchant
-    merchantId: 'BCR2DN6TQ7J7VIDU', // @todo get from merchant
+    merchantName: 'Flowers Shop', // @todo get from merchant
+    merchantId: 'BCR2DN4TWDNNPWQX', // @todo get from merchant
 }
 
 const baseRequest = {
