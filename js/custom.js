@@ -26,8 +26,7 @@ const parsedUserInfo = {
     currency: 'USD',
     amount: 1,
     merchantName: 'Gpay merchant', // @todo get from merchant
-    merchantId: 'fd5eaedd-7d85-44c0-a49c-b3946d13c728', // @todo get from merchant
-    merchant_display_name: 'Flowers Shop'
+    merchantId: 'BCR2DN6TQ7J7VIDU', // @todo get from merchant
 }
 
 const baseRequest = {
@@ -45,7 +44,7 @@ const cardPaymentMethod = {
         type: 'PAYMENT_GATEWAY',
         parameters: {
             'gateway': 'truevo',
-            'gatewayMerchantId': 'exampleGatewayMerchantId'
+            'gatewayMerchantId': 'ddd11622-7a37-4d5c-bb4f-bc75d92e9583'
         }
     }
 };
